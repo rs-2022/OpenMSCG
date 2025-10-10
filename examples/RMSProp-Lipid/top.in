@@ -1,0 +1,42 @@
+cgsites 8400
+cgtypes  8
+CHG
+CMG
+CT1
+CT2
+SHG
+SMG
+ST1
+ST2
+moltypes 2
+mol 6 2
+sitetypes
+CHG
+CMG
+CT1
+CT2
+CT1
+CT2
+bonds 5 2
+1 2
+2 3
+3 4
+2 5
+5 6
+mol 6 2
+sitetypes
+SHG
+SMG
+ST1
+ST2
+ST1
+ST2
+bonds 5 2
+1 2
+2 3
+3 4
+2 5
+5 6
+system 2 
+1 1120
+2 280

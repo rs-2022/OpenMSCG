@@ -1,0 +1,12 @@
+dist/
+*.egg-info/
+
+notes.txt
+
+__pycache__
+build/
+run/
+
+build.cfg
+
+conftest.py

@@ -1,0 +1,60 @@
+   pair_coeff   1  1   Pair_CHG-CHG.table CHG-CHG 25.0
+   pair_coeff   1  2   Pair_CHG-CMG.table CHG-CMG 25.0
+   pair_coeff   1  3   Pair_CHG-CT1.table CHG-CT1 25.0
+   pair_coeff   1  4   Pair_CHG-CT2.table CHG-CT2 25.0
+   pair_coeff   1  5   Pair_CHG-SHG.table CHG-SHG 25.0
+   pair_coeff   1  6   Pair_CHG-SMG.table CHG-SMG 25.0
+   pair_coeff   1  7   Pair_CHG-ST1.table CHG-ST1 25.0
+   pair_coeff   1  8   Pair_CHG-ST2.table CHG-ST2 25.0
+
+   pair_coeff   2  2    Pair_CMG-CMG.table CMG-CMG 25.0
+   pair_coeff   2  3    Pair_CMG-CT1.table CMG-CT1 25.0
+   pair_coeff   2  4    Pair_CMG-CT2.table CMG-CT2 25.0
+   pair_coeff   2  5    Pair_CMG-SHG.table CMG-SHG 25.0
+   pair_coeff   2  6    Pair_CMG-SMG.table CMG-SMG 25.0
+   pair_coeff   2  7    Pair_CMG-ST1.table CMG-ST1 25.0
+   pair_coeff   2  8    Pair_CMG-ST2.table CMG-ST2 25.0
+
+   pair_coeff   3  3    Pair_CT1-CT1.table CT1-CT1 25.0
+   pair_coeff   3  4    Pair_CT1-CT2.table CT1-CT2 25.0
+   pair_coeff   4  4    Pair_CT2-CT2.table CT2-CT2 25.0
+   pair_coeff   3  5    Pair_CT1-SHG.table CT1-SHG 25.0
+   pair_coeff   3  6    Pair_CT1-SMG.table CT1-SMG 25.0
+   pair_coeff   3  7    Pair_CT1-ST1.table CT1-ST1 25.0
+   pair_coeff   3  8    Pair_CT1-ST2.table CT1-ST2 25.0
+   pair_coeff   4  5    Pair_CT2-SHG.table CT2-SHG 25.0
+   pair_coeff   4  6    Pair_CT2-SMG.table CT2-SMG 25.0
+   pair_coeff  	4  7    Pair_CT2-ST1.table CT2-ST1 25.0
+   pair_coeff   4  8    Pair_CT2-ST2.table CT2-ST2 25.0
+
+   bond_coeff   1    Bond_CHG-CMG.table CHG-CMG
+   bond_coeff   2      Bond_CMG-CT1.table CMG-CT1
+   bond_coeff   3      Bond_CT1-CT2.table CT1-CT2
+
+   angle_coeff   1     Angle_CHG-CMG-CT1.table  CHG-CMG-CT1
+   angle_coeff   2     Angle_CT1-CMG-CT1.table  CT1-CMG-CT1
+   angle_coeff   3     Angle_CMG-CT1-CT2.table   CMG-CT1-CT2
+
+   pair_coeff   5  5   Pair_SHG-SHG.table SHG-SHG 25.0
+   pair_coeff   5  6   Pair_SHG-SMG.table SHG-SMG 25.0
+   pair_coeff   5  7   Pair_SHG-ST1.table SHG-ST1 25.0
+   pair_coeff   5  8   Pair_SHG-ST2.table SHG-ST2 25.0
+
+   pair_coeff   6  6    Pair_SMG-SMG.table SMG-SMG 25.0
+   pair_coeff   6  7    Pair_SMG-ST1.table SMG-ST1 25.0
+   pair_coeff   6  8    Pair_SMG-ST2.table SMG-ST2 25.0
+
+   pair_coeff   7  7    Pair_ST1-ST1.table ST1-ST1 25.0
+   pair_coeff   7  8    Pair_ST1-ST2.table ST1-ST2 25.0
+   pair_coeff   8  8    Pair_ST2-ST2.table ST2-ST2 25.0
+
+   bond_coeff   4    Bond_SHG-SMG.table SHG-SMG
+   bond_coeff   5      Bond_SMG-ST1.table SMG-ST1
+   bond_coeff   6      Bond_ST1-ST2.table ST1-ST2
+
+   angle_coeff   4     Angle_SHG-SMG-ST1.table  SHG-SMG-ST1
+   angle_coeff   5     Angle_ST1-SMG-ST1.table  ST1-SMG-ST1
+   angle_coeff   6     Angle_SMG-ST1-ST2.table   SMG-ST1-ST2
+    
+
+

@@ -1,0 +1,49 @@
+#VARIABLES
+variable TEMP           equal   303.0
+variable T2             equal   297.0
+variable PRESS          equal   -2.5
+
+include "system.init"
+read_data "system_assembly.data"
+include "system.settings"
+
+minimize 1e-4 1e-6 1000 5000
+write_dump all xyz min.xyz
+write_data min.data
+reset_timestep 0
+
+velocity all create ${TEMP} 4431231 mom yes dist gaussian
+timestep 15.0
+
+compute 1 all pressure NULL virial
+compute 2 all pressure NULL pair
+compute 3 all pressure NULL bond angle
+
+thermo 1000
+thermo_style  custom  step spcpu  temp  ke pe etotal  epair lx ly lz  pxx pyy pzz c_1[1] c_2[1] c_3[1] c_1[2] c_2[2] c_3[2]
+
+dump 1 all xyz 5000 dump0.xyz
+
+fix 1 all langevin ${TEMP} ${TEMP} 10000.0 3312341
+#fix 2 all press/berendsen x ${PRESS} ${PRESS} 7000.0 y ${PRESS} ${PRESS} 7000.0  couple xy
+fix 3 all nve
+
+fix b1 all balance 5000 0.95 shift xy 15 1.03
+
+
+#unfix 2
+#fix 2 all deform 1 x final 0 216.04 y final 0 216.04 remap v units box
+#undump 1
+run 80000
+undump 1
+write_dump all xyz eq0.xyz
+write_data eq0.data
+
+#unfix 2
+
+#run 200000
+#run 20000
+dump 2 all custom 100 CG.lammpstrj id type x y z fx fy fz
+dump_modify 2 sort id
+run 10000
+

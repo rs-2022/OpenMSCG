@@ -1,0 +1,2 @@
+mpirun -np 40 lmp_mpi  < CG.in
+python reorder.py

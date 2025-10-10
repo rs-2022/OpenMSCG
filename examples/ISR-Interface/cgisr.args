@@ -1,0 +1,11 @@
+--top ucg.top
+--traj UCG.lammpstrj
+--traj_class UCG.lammpstrj
+--alpha 2.5
+--cut 12.0
+--beta 0.1
+--psi 0.1
+--phi 3.0
+--epochs 800
+--chi 8e-3
+--batch_size 32
