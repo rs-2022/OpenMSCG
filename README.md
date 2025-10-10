@@ -1,19 +1,20 @@
 # OpenMSCG
 
+An open-source python package for systematic coarse-graining (including
+MSCG/force-matching) in computational chemistry and biology. To download OpenMSCG integrated with the mstool backmapping software, visit here: https://software.rcc.uchicago.edu/git/MSCG/mscg-mstool.
+
 ## Update Oct 8, 2025
 
 The last available GitLab version of OpenMSCG has been migrated here. Updates include:
 
-- `cgyaml.py` (by Ace): Automatic and versatile YAML mapping creater
-- `cgisr.py` (by Patrick): Internal State Regression, from
+- `cgyaml.py` (by Ace): Automatic and versatile YAML mapping creater.
+- `cgisr.py` (by Patrick): Internal State Regression, from Patrick's [UCG-REM paper](https://doi.org/10.1063/5.0244427).
 - `cgrem_rmsprop.py` (by Patrick): RMSProp Optimizer for Relative Entropy Minimization (REM).
 
-The current version is `0.9.0`.
+The tutorials and documentations are in this [Google Drive link](https://drive.google.com/drive/folders/1UVrdICTp9sn_ndvalEto4XQOVFGyzaKz?usp=sharing). 
+Please download the entire subdirectory `tutorials` for proper rendering.
 
-## Below
-
-An open-source python package for systematic coarse-graining (including
-MSCG/force-matching) in computational chemistry and biology. To download OpenMSCG integrated with the mstool backmapping software, visit here: https://software.rcc.uchicago.edu/git/MSCG/mscg-mstool.
+The current version number is still `0.9.0`. 
 
 ## Quick Guide
 
@@ -42,6 +43,12 @@ See the available tutorials at https://software.rcc.uchicago.edu/mscg/tutorials/
 See the documentation at https://software.rcc.uchicago.edu/mscg/docs/.
 
 ## Notes of Updates & Changes
+
+**0.9.0** (Version 2025-07-31)
+
+1. `cgyaml.py` (by Ace): Automatic and versatile YAML mapping creater.
+2. `cgisr.py` (by Patrick): Internal State Regression, from Patrick's [UCG-REM paper](https://doi.org/10.1063/5.0244427).
+3. `cgrem_rmsprop.py` (by Patrick): RMSProp Optimizer for Relative Entropy Minimization (REM).
 
 **0.7.1**
 
