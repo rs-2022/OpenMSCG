@@ -3,6 +3,11 @@
 An open-source python package for systematic coarse-graining (including
 MSCG/force-matching) in computational chemistry and biology. To download OpenMSCG integrated with the mstool backmapping software, visit here: https://software.rcc.uchicago.edu/git/MSCG/mscg-mstool.
 
+## Important Information
+
+- [**Tutorials and Documentation**](https://drive.google.com/drive/folders/1UVrdICTp9sn_ndvalEto4XQOVFGyzaKz?usp=sharing)
+- [**Group Website Page**](https://voices.uchicago.edu/vothgroup/downloadablematerials/)
+
 ## Update Oct 8, 2025
 
 The last available GitLab version of OpenMSCG has been migrated here. Updates include:
